@@ -50,3 +50,12 @@ def comment_reply():
                             pass
             except AttributeError:
                 pass
+r
+load = 1
+while True:
+    print('Scanning...')
+    comment_reply()
+    load += 1
+    time.sleep(2)
+    if load == 1800:
+        r
